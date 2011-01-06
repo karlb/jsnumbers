@@ -1,0 +1,11 @@
+JSNumbers
+A Javascript puzzle game by Karl Bartel <karlb@gmx.net>
+License: GPL
+
+The game can be run by opening game.html from a webserver. Opening the file directly from disk will cause errors, since the game loads the levels via XMLHTTP-Request ("AJAX"), which is not possible on the local disc.
+
+Contents:
+	game.html -- the HTML and JS used to run the game
+	levels -- JSON files which are loaded via XMLHTTP-Request
+	img -- images files use by the game
+	source-data -- data files from which the images in img are generated
